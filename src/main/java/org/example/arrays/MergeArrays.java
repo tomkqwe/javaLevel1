@@ -28,15 +28,12 @@ public class MergeArrays {
                     resultArr[i] = arr1[index];
                 }
                 if (i % 2 == 1) {
-                    resultArr[i] = arr2[index];
-                    index++;
+                    resultArr[i] = arr2[index++];
                 }
             } else if (arr1.length > index) {
-                resultArr[i] = arr1[index];
-                index++;
+                resultArr[i] = arr1[index++];
             } else if (arr2.length > index) {
-                resultArr[i] = arr2[index];
-                index++;
+                resultArr[i] = arr2[index++];
             }
 
         }
