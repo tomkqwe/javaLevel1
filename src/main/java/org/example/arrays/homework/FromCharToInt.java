@@ -1,9 +1,6 @@
 package org.example.arrays.homework;
 
 
-import java.util.Arrays;
-import java.util.OptionalDouble;
-
 public class FromCharToInt {
 
 
