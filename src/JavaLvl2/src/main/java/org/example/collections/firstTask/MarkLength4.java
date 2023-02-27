@@ -1,4 +1,4 @@
-package org.example.collections;
+package org.example.collections.firstTask;
 
 import java.util.ArrayList;
 import java.util.Arrays;
