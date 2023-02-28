@@ -1,38 +1,31 @@
 package org.example.collections.homework1;
 
+import java.util.List;
+
 public class Chat implements Comparable<Chat> {
     private String name;
-    private int quantity;
+    private List<User> users;
 
-    public Chat(String name, int quantity) {
+    public Chat(String name, List<User> users) {
         this.name = name;
-        this.quantity = quantity;
+        this.users = users;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getQuantity() {
-        return quantity;
-    }
-
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
+    public List<User> getUsers() {
+        return users;
     }
 
     @Override
     public String toString() {
         return "Chat{" +
                 "name='" + name + '\'' +
-                ", quantity=" + quantity +
+                ", users=" + users +
                 '}';
     }
-
 
     @Override
     public int compareTo(Chat o) {
