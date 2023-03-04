@@ -1,4 +1,4 @@
-package org.example.io;
+package org.example.io.firstTaskPractice;
 
 import java.io.IOException;
 import java.nio.file.Files;

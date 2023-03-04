@@ -1,4 +1,4 @@
-package org.example.io;
+package org.example.io.firstTaskPractice;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -8,8 +8,8 @@ import java.util.Map;
 
 import static java.nio.file.StandardOpenOption.CREATE;
 import static java.nio.file.StandardOpenOption.TRUNCATE_EXISTING;
-import static org.example.io.CountCharactersUtil.countCharacters;
-import static org.example.io.CountCharactersUtil.toListRepresentation;
+import static org.example.io.firstTaskPractice.CountCharactersUtil.countCharacters;
+import static org.example.io.firstTaskPractice.CountCharactersUtil.toListRepresentation;
 
 public class CountCharactersRunner {
     public static void main(String[] args) throws IOException {
